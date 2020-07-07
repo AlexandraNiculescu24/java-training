@@ -1,8 +1,12 @@
 package code._3_in_class;
 
 public class Main {
+    public static void main(String[] args) {
+        LazyInit lazyInit=LazyInit.getInstance();
+        System.out.println(lazyInit.getName());
 
-  public static void main(String[] args) {
-    //TODO put your code changes in here
-  }
+        LazyInit lazyInit1=LazyInit.getInstance();
+        System.out.println(lazyInit1.getName());
+
+    }
 }
