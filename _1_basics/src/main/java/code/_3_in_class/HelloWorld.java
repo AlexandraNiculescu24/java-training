@@ -1,6 +1,6 @@
 package Lab1;
 
-public class ControlFlow {
+public class HelloWorld {
     private int times=10;
 
     public int addManyTimes(){
